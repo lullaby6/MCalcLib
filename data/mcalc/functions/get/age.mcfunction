@@ -1,0 +1,1 @@
+execute store result score @s mcalc.age run data get entity @s Age

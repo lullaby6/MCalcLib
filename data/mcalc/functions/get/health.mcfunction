@@ -1,0 +1,1 @@
+execute store result score @s mcalc.health run data get entity @s Health

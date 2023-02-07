@@ -1,0 +1,1 @@
+execute store result score @s mcalc.xp run xp query @s levels

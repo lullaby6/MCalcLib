@@ -48,12 +48,10 @@ scoreboard objectives add mcalc dummy
 scoreboard players set min mcalc 1
 
 scoreboard objectives add mcalc.health dummy
-
 scoreboard objectives add mcalc.age dummy
-
 scoreboard objectives add mcalc.xp dummy
-
 scoreboard objectives add mcalc.hunger food
+scoreboard objectives add mcalc.tags dummy
 
 scoreboard objectives add mcalc.player_id dummy
 execute unless score .id mcalc.player_id matches 0.. run scoreboard players set .id mcalc.player_id 0

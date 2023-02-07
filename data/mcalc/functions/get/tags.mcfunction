@@ -1,0 +1,1 @@
+execute store result score @s mcalc.tags run data get entity @s Tags
