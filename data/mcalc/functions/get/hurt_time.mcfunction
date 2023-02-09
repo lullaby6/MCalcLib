@@ -1,0 +1,1 @@
+execute store result score @s mcalc.hurt_time run data get entity @s HurtTime

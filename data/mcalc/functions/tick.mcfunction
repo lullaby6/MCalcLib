@@ -2,6 +2,7 @@ execute as @e[tag=mcalc.health] store result score @s mcalc.health run data get 
 execute as @e[tag=mcalc.age] store result score @s mcalc.age run data get entity @s Age
 execute as @e[tag=mcalc.tags] store result score @s mcalc.tags run data get entity @s Tags
 execute as @a[tag=mcalc.xp] store result score @s mcalc.xp run xp query @s levels
+execute as @e[tag=mcalc.hurt_time] store result score @s mcalc.hurt_time run data get entity @s HurtTime
 
 tag @e[type=player,gamemode=!creative,gamemode=!spectator] add mcalc.player
 tag @e[type=player,gamemode=!survival,gamemode=!adventure] remove mcalc.player

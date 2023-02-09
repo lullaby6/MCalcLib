@@ -1,3 +1,11 @@
+scoreboard objectives add mcalc.x dummy
+scoreboard objectives add mcalc.y dummy
+scoreboard objectives add mcalc.z dummy
+
+scoreboard objectives add mcalc.x2 dummy
+scoreboard objectives add mcalc.y2 dummy
+scoreboard objectives add mcalc.z2 dummy
+
 scoreboard objectives add mcalc.mx dummy
 scoreboard objectives add mcalc.my dummy
 scoreboard objectives add mcalc.mz dummy
@@ -52,6 +60,7 @@ scoreboard objectives add mcalc.age dummy
 scoreboard objectives add mcalc.xp dummy
 scoreboard objectives add mcalc.hunger food
 scoreboard objectives add mcalc.tags dummy
+scoreboard objectives add mcalc.hurt_time dummy
 
 scoreboard objectives add mcalc.player_id dummy
 execute unless score .id mcalc.player_id matches 0.. run scoreboard players set .id mcalc.player_id 0
