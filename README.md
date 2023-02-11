@@ -1,6 +1,6 @@
 <div align="center">
 
-# MCalc
+# MCalcLib
 
 Library to help you!
 
