@@ -17,18 +17,26 @@
         "minecraft:ocelot",
         "minecraft:rabbit",
         "minecraft:strider",
+        "minecraft:snow_golem",
+        "minecraft:iron_golem",
         "minecraft:tadpole",
         "minecraft:trader_llama",
+        "minecraft:bee",
         "minecraft:turtle",
         "minecraft:wolf",
         "minecraft:bat",
         "minecraft:cod",
+        "minecraft:skeleton_horse",
+        "minecraft:zombie_horse",
+        "minecraft:panda",
+        "minecraft:goat",
         "minecraft:salmon",
         "minecraft:dolphin",
         "minecraft:glow_squid",
         "minecraft:polar_bear",
         "minecraft:squid",
         "minecraft:pufferfish",
-        "minecraft:tropical_fish"
+        "minecraft:tropical_fish",
+        "wandering_trader"
     ]
 }

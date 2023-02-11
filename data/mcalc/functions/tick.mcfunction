@@ -9,13 +9,9 @@ tag @e[type=player,gamemode=!survival,gamemode=!adventure] remove mcalc.player
 tag @e[type=wolf] add mcalc.player
 tag @e[type=iron_golem] add mcalc.player
 tag @e[type=snow_golem] add mcalc.player
-tag @e[type=warden] add mcalc.player
-tag @e[type=zoglin] add mcalc.player
 
 execute as @e[tag=mcalc.unfire,nbt=!{Fire:-1s}] run data merge entity @s {Fire:0}
 execute as @e[tag=mcalc.unfire] at @s if block ~ ~ ~ fire run setblock ~ ~ ~ air
 effect give @e[tag=mcalc.unfire] fire_resistance 3 0 true
 
-execute as @e[type=!player,scores={mcalc.damage=1..}] run function mcalc:damage
-
-execute as @a[tag=!mcalc.procced] run function mcalc:procced
+execute as @a[tag=!mcalc.player_id] run function mcalc:player_id

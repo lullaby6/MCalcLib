@@ -49,11 +49,8 @@ scoreboard players set 750 mcalc.const 750
 scoreboard players set 1000 mcalc.const 1000
 scoreboard players set 1024 mcalc.const 1024
 
-scoreboard objectives add mcalc.damage dummy
-scoreboard objectives add mcalc.damaged dummy
-
 scoreboard objectives add mcalc dummy
-scoreboard players set min mcalc 1
+scoreboard players set . mcalc 1
 
 scoreboard objectives add mcalc.health dummy
 scoreboard objectives add mcalc.age dummy
