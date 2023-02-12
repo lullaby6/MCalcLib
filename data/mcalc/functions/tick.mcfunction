@@ -6,7 +6,7 @@ execute as @e[tag=mcalc.hurt_time] store result score @s mcalc.hurt_time run dat
 
 tag @e[type=player,gamemode=!creative,gamemode=!spectator] add mcalc.player
 tag @e[type=player,gamemode=!survival,gamemode=!adventure] remove mcalc.player
-tag @e[type=wolf] add mcalc.player
+execute as @e[type=wolf] if data entity @s Owner run tag @s add mcalc.player
 tag @e[type=iron_golem] add mcalc.player
 tag @e[type=snow_golem] add mcalc.player
 
