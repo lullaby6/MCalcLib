@@ -88,7 +88,7 @@ summon zombie ~ ~ ~ {Tags:["mcalc.unfire"]}
 
 Example:
 ```
-kill @e[type=#undead]
+kill @e[type=#mcalc:undead]
 ```
 
 ### Clear chat
