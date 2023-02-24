@@ -1,0 +1,1 @@
+execute store result score @s mcalc.fire run data get entity @s Fire
